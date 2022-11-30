@@ -1,0 +1,72 @@
+.cabecalho {
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url("../images/fundocabecalho.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    margin-top: 3px;
+    width: 100%;
+    min-height: 30px;
+    margin-bottom: 10px;
+
+}
+
+.itemMenu {
+    width: 100px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    float: left;
+    margin-right: 3px;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.itemMenu a {
+    color: white
+}
+
+.itemMenu a:hover{
+    font-size: 18px;
+}
+
+.corpo {
+    border: 1px solid black;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.rodape {
+    border: 1px solid black;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.corRosa {
+    color: pink;
+}
+
+.corAzul {
+    color: blue;
+}
+
+.corBranca {
+    color: white;
+}
+
+.tituloPrincipal {
+    font-size: 40px;
+}
