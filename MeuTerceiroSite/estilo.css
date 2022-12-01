@@ -1,0 +1,15 @@
+.formulario {
+    width: 450px;
+    height: 450px;
+    background-color: gray;
+    padding: 10px;
+    color: white 
+}
+
+.display {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 5px;
+}
