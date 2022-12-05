@@ -1,0 +1,8 @@
+{
+    "nome":"Marcos Santos",
+    "email" : "marcos.santos@atitus.edu.br",
+    "code": 123456,
+    "brasileiro": true,
+    "games": [ "Tomb Raider", "CS", "LOL" ]
+
+}
