@@ -1,0 +1,34 @@
+.cabecalho{
+    height: 150px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    font-size: 40px;
+}
+.barraMenu{
+    height: 50px;
+    background-color: aquamarine;
+
+}
+.itemMenu{
+    float: left;
+    margin-right: 5px;
+    width: 80px;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid gray;
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.rodape {
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    border: 1px solid;
+    text-align: center;
+    font-size: 40px;
+}
