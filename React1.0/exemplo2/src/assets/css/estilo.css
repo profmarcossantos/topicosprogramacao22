@@ -10,3 +10,18 @@ h1 {
     color: gray;
     font-size: 12px;
 }
+
+.rodape{
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
