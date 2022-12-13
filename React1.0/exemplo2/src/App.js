@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Login from './pages/Login'
 import Menu from './pages/Menu'
+import Erros from './pages/Erros';
 
 const App = () => {
 
@@ -17,6 +18,12 @@ const App = () => {
       path: "/menu",
       element: <Menu />,
     },
+    {
+      path: "*",
+      element: <Erros />,
+    },
+
+
 
   ]);
 
