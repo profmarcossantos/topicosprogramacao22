@@ -1,4 +1,4 @@
-body{
+body {
     background-color: snow;
 }
 
@@ -11,7 +11,7 @@ h1 {
     font-size: 12px;
 }
 
-.rodape{
+.rodape {
     text-align: center;
     font-size: 12px;
     background-color: rgb(224, 219, 219);
@@ -24,4 +24,8 @@ h1 {
     background-color: rgb(224, 219, 219);
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+table {
+    border: 1px solid black;
 }

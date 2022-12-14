@@ -6,17 +6,25 @@ import {
 import Login from './pages/Login'
 import Menu from './pages/Menu'
 import Erros from './pages/Erros';
+import Details from './pages/Details';
+import { useState } from 'react';
 
 const App = () => {
+
+  const [login, setLogin] = useState(false)
 
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Login />,
+      element: <Login login={login} setLogin={setLogin} />,
     },
     {
       path: "/menu",
-      element: <Menu />,
+      element: login ? <Menu /> : <Login />,
+    },
+    {
+      path: "/details",
+      element: login ? <Details /> : <Login />,
     },
     {
       path: "*",

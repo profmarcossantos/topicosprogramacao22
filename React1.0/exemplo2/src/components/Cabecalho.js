@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import loginImage from '../assets/images/login.png'
 
 export default function Cabecalho(props) {
 
-    const {iconLogin, textoAlternativo} = props
+    const { iconLogin, textoAlternativo } = props
 
     const getNamePlataform = () => {
         return "Briquilaus Corporation"
@@ -33,6 +34,10 @@ export default function Cabecalho(props) {
             }}>
                 {textoAlternativo} {getNamePlataform()} !
             </h1>
+            {iconLogin === false ?
+                <Link to="/" style={{ float: "right" }}>Logoff</Link>
+                : null
+            }
         </div>
     )
 }
