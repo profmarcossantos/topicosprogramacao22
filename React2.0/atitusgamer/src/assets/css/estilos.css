@@ -1,0 +1,49 @@
+.coluna {
+    border: 1px solid black
+}
+
+.cabecalho {
+    min-height: 180px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url("../images/back.jpg");
+    background-size: cover;
+}
+
+.corpo {
+    min-height: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.itemMenu {
+    float: left;
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.itemMenu :hover {
+    cursor: pointer;
+    background-color: gray;
+}
