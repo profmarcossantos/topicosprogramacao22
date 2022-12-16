@@ -11,14 +11,19 @@ function App() {
 
   const [login, setLogin] = useState(false)
 
+  const verificarLogin = () => {
+    setLogin(sessionStorage.getItem("login"))
+  }
+
+
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Login setLogin={setLogin} />,
+      element: <Login verificarLogin={verificarLogin} />,
     },
     {
       path: "/menu",
-      element: login === true ? <Menu /> : <Login setLogin={setLogin} />,
+      element: login ? <Menu /> : <Login verificarLogin={verificarLogin} />,
     },
 
   ]);

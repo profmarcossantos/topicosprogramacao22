@@ -2,8 +2,16 @@ import { Grid } from '@mui/material'
 import React from 'react'
 import Cabecalho from '../components/Cabecalho'
 import Rodape from '../components/Rodape'
+import { useNavigate } from 'react-router-dom'
 
-export default function Menu() {
+export default function Menu(props) {
+  const navigate = useNavigate();
+
+  const logoff = () => {
+    sessionStorage.removeItem("login")
+    navigate("/")
+  }
+
   return (
     <>
       <Grid container style={{ padding: 10 }}>
@@ -15,10 +23,9 @@ export default function Menu() {
           <div className='menu'>
             <div className='itemMenu'>Capa</div>
             <div className='itemMenu'>Cadastro</div>
-            <div className='itemMenu'>Logoff</div>
+            <div className='itemMenu' onClick={logoff}>Logoff</div>
           </div>
           <div className='corpo'>
-            <br />
             Corpo
           </div>
         </Grid>

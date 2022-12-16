@@ -30,12 +30,12 @@
 .menu {
     width: 100%;
     margin-top: 10px;
-    position: absolute;
+    display: inline-block;
 }
 
 .itemMenu {
     float: left;
-    width: 25%;
+    width: 100px;
     border: 1px solid gray;
     border-radius: 10px;
     margin-left: 10px;
@@ -43,7 +43,7 @@
     text-align: center;
 }
 
-.itemMenu :hover {
+.itemMenu:hover {
     cursor: pointer;
     background-color: gray;
 }
