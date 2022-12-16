@@ -3,7 +3,7 @@ import { signInWithEmailAndPassword, getAuth } from "firebase/auth";
 
 const auth = getAuth(app);
 
-export default function login(email, password) {
+export default function loginService(email, password) {
     return new Promise((resolve, reject) => {
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
